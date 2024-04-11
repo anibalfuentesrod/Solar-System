@@ -116,8 +116,11 @@ body {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Neptune_cutout.png/1200px-Neptune_cutout.png);
     background-size: cover;
     border-radius: 50%;
+    transition: filter 0.5s;
 }
-
+.neptune:hover {
+	filter: brightness(150%);
+}
 .jupiter {
 	position: absolute;
 	top: 300px;
