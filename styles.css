@@ -73,8 +73,6 @@ body {
 .mars:hover {
 	filter: brightness(120%);
 }
-
-<<<<<<< HEAD
 .sun {
 	position: absolute;
 	top: 50%;
@@ -84,8 +82,7 @@ body {
 	background-image: url('https://images.rawpixel.com/image_png_400/czNmcy1w…dlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2My00MS5wbmc.png');
 	background-size: cover;
 	border-radius: 50%;
-	
-=======
+}
 .neptune {
     position: absolute;
     top: 600px;
@@ -129,7 +126,6 @@ body {
 }
 .sun:hover {
 	filter: brightness(120%);
->>>>>>> 09f1afaa86bde0b320a1a8faeedee48c70bad989
 }
 
 .star {
