@@ -42,14 +42,19 @@ body {
 	position: absolute;
 	top: 900px;
 	left: 700px;
-	width: 400px;
-	height: 400px;
-	background-image: url('https://w7.pngwing.com/pngs/16/806/png-transparent…rs-sphere-venus-astronomical-object-thumbnail.png');
+	width: 500px;
+	height: 500px;
+	background-image: url('https://png.pngtree.com/png-clipart/20220616/original/pngtree-planet-mars-png-image_8081576.png');
 	background-size: cover;
+	background-color: transparent;
 	border-radius: 50%;
 	animation: breathing 5s infinite alternate;
 	transition: filter 0.5s;
 }
+.mars:hover {
+	filter: brightness(150%);
+}
+
 .star {
     position: absolute;
     width: 8px; 
