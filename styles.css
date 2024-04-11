@@ -4,6 +4,30 @@ body {
     background-color: #000;
 }
 
+.explore-text {
+    font-family: 'Tilt Neon', sans-serif;
+    position: fixed; /* Use fixed positioning to make the text stay in place even when scrolling */
+    top: 20px; /* Adjust top position as needed */
+    left: 20px; /* Adjust left position as needed */
+    color: #fff; /* Set text color to white */
+    font-size: 100px; /* Set font size */
+    z-index: 9999;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8),
+                     0 0 30px rgba(255, 255, 255, 0.6),
+                     0 0 40px rgba(255, 255, 255, 0.4),
+                     0 0 50px rgba(255, 255, 255, 0.2);
+    }
+}
+
 .moon {
     position: absolute;
     top: 490px;
