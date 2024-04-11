@@ -40,11 +40,11 @@ body {
 
 .mars {
 	position: absolute;
-	top: 300px;
+	top: 900px;
 	left: 700px;
-	width: 150px;
-	height: 150px;
-	background-image: url('https://img.freepik.com/premium-psd/mars-planet-co…lated-transparent-background_879541-681.jpg?w=740');
+	width: 400px;
+	height: 400px;
+	background-image: url('https://w7.pngwing.com/pngs/16/806/png-transparent…rs-sphere-venus-astronomical-object-thumbnail.png');
 	background-size: cover;
 	border-radius: 50%;
 	animation: breathing 5s infinite alternate;
