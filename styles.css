@@ -38,6 +38,18 @@ body {
     filter: brightness(150%);
 }
 
+.mars {
+	position: absolute;
+	top: 300px;
+	left: 700px;
+	width: 150px;
+	height: 150px;
+	background-image: url('https://img.freepik.com/premium-psd/mars-planet-co…lated-transparent-background_879541-681.jpg?w=740');
+	background-size: cover;
+	border-radius: 50%;
+	animation: breathing 5s infinite alternate;
+	transition: filter 0.5s;
+}
 .star {
     position: absolute;
     width: 8px; 
