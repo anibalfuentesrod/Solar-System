@@ -24,9 +24,9 @@ body {
 .earth {
     position: absolute;
     top: 300px;
-    left: 800px;
-    width: 500px;
-    height: 800px;
+    left: 500px;
+    width: 300px;
+    height: 300px;
     background-image: url('https://clipart-library.com/image_gallery2/Earth-Free-Download-PNG.png');
     background-size: cover;
     border-radius: 50%;
