@@ -54,6 +54,7 @@ body {
 
 .saturn:hover {
     filter: brightness(150%);
+}
 
 .mars {
 	position: absolute;
