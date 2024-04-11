@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.moon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    background-image: url('https://static.typingclub.com/m/tpmedia/img/moon.png');
+    background-size: cover;
+    border-radius: 50%;
+    animation: breathing 5s infinite alternate;
+    transition: filter 0.5s;
+}
+
+.moon:hover {
+    filter: brightness(40%);
+}
+
+.earth {
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 500px;
+    height: 800px;
+    background-image: url('https://clipart-library.com/image_gallery2/Earth-Free-Download-PNG.png');
+    background-size: cover;
+    border-radius: 50%;
+    animation: breathing 5s infinite alternate;
+    transition: filter 0.5s;
+}
+
+.earth:hover {
+    filter: brightness(150%);
+}
+
+.star {
+    position: absolute;
+    width: 5px; 
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.star:nth-of-type(1) {
+    top: 100px;
+    left: 200px;
+    animation: twinkling 3s infinite alternate;
+}
+
+.star:nth-of-type(2) {
+    top: 150px;
+    left: 300px;
+    animation: twinkling 2s infinite alternate;
+}
+
+.star:nth-of-type(3) {
+    top: 200px;
+    left: 400px;
+    animation: twinkling 4s infinite alternate;
+}
+
+
+
+@keyframes breathing {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes twinkling {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
