@@ -113,10 +113,10 @@ body {
 
 .sun {
 	position: absolute;
-	top: 500px;
-	left: 500px;
-	width: 100px;
-	height: 100px;
+	top: 200px;
+	left: 650px;
+	width: 500px;
+	height: 500px;
 	background-image: url(https://pngimg.com/d/sun_PNG13424.png);
 	background-size: cover;
 	background-color: transparent;
