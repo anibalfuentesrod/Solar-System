@@ -50,6 +50,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
+    transition: filter 0.5s;
 }
 
 .saturn:hover {
@@ -71,6 +72,18 @@ body {
 }
 .mars:hover {
 	filter: brightness(120%);
+}
+
+.sun {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	background-image: url('https://images.rawpixel.com/image_png_400/czNmcy1w…dlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2My00MS5wbmc.png');
+	background-size: cover;
+	border-radius: 50%;
+	
 }
 
 .star {
