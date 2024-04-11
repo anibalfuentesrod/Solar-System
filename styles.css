@@ -38,6 +38,7 @@ body {
     filter: brightness(150%);
 }
 
+
 .saturn {
     position: absolute;
     top: 600px;
@@ -53,6 +54,22 @@ body {
 
 .saturn:hover {
     filter: brightness(150%);
+
+.mars {
+	position: absolute;
+	top: 900px;
+	left: 700px;
+	width: 500px;
+	height: 500px;
+	background-image: url('https://png.pngtree.com/png-clipart/20220616/original/pngtree-planet-mars-png-image_8081576.png');
+	background-size: cover;
+	background-color: transparent;
+	border-radius: 50%;
+	animation: breathing 5s infinite alternate;
+	transition: filter 0.5s;
+}
+.mars:hover {
+	filter: brightness(120%);
 }
 
 .star {

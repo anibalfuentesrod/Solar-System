@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const starsContainer = document.getElementById("stars-container");
-    const numStars = 800;
+    const numStars = 1000;
 
     for (let i = 0; i < numStars; i++) {
         const star = document.createElement("div");
